@@ -1,0 +1,69 @@
+.largeHeader{
+    height: 100vh;
+    background: url('../images/siva.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: brightness(70%);
+}
+.logo{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+   .myName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 250px;
+    margin-bottom: 0px;
+  }
+
+  .typedText {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 400px; */
+} 
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbars{
+    font-size: 27px;
+    margin: 25px;
+}
+.navbars:hover{
+    transition: 0.5s;
+    border-bottom: 2px solid white;
+    transform: translate(10px);
+}
+.mainNav{
+position:absolute;
+right: 0px;
+}
+.about{
+    margin-top: 10px;
+    color: black;
+}
+@media only screen and (max-width: 991px) {
+    *{
+        font-size: 10px;
+    }
+    .myName{
+        padding-top: 130px;
+    }
+    /* .largeHeader{
+        height: 430px
+    } */
+    .navbars{
+        font-size: 10px;
+        margin: 10px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+
+  }
